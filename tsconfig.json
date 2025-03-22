@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",          // Target ECMAScript version
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "moduleResolution": "node",
+    "module": "commonjs",     // Module system
+    "strict": true,           // Enable strict type checking
+    "esModuleInterop": true,  // Allow default imports from CommonJS modules
+    "outDir": "./dist"        // Output directory for compiled files
+  },
+  "include": ["src/**/*"],     // Include all TypeScript files in the src directory
+  "exclude": ["node_modules"]  // Exclude node_modules from compilation
+}
